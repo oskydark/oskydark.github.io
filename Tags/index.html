@@ -27,7 +27,7 @@
   <meta name="description" content="书到用时方恨少、事非经过不知难">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Tags">
-<meta property="og:url" content="http://oskydark.github.io/Tags/index.html">
+<meta property="og:url" content="https://oskydark.github.io/Tags/index.html">
 <meta property="og:site_name" content="oskydark">
 <meta property="og:description" content="书到用时方恨少、事非经过不知难">
 <meta property="og:locale">
@@ -37,7 +37,7 @@
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://oskydark.github.io/Tags/">
+<link rel="canonical" href="https://oskydark.github.io/Tags/">
 
 
 <script class="page-configurations">
@@ -318,6 +318,7 @@
 
 
       
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -488,6 +489,18 @@
   
 
   
+
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"lMqsOM9G0H2ARvFywWaYOjqy-gzGzoHsz","appKey":"eRiaKFmbQI17BeILL0uYn7yu","serverURLs":"https://oskydark.github.io","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":false,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
+      el: '#valine-comments',
+      path: "/Tags/",
+      serverURLs: "https://oskydark.github.io"
+    }));
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
