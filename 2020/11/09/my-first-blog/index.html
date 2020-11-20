@@ -472,6 +472,24 @@
     <span title="站点阅读时长">1 分钟</span>
   </span>
 </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
@@ -504,6 +522,7 @@
 
 
   
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -519,7 +538,7 @@
 <script>
 NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"S2lwsFMPGUOWboLGMDHHVn64-MdYXbMMI","appKey":"MDCwgwKuixCWimVHJRU4TsPJ","serverURLs":null,"placeholder":"留下点什么吧~","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":true,"comment_count":false,"recordIP":false,"enableQQ":true,"requiredFields":["nick"]}, {
+    new Valine(Object.assign({"enable":true,"appId":"S2lwsFMPGUOWboLGMDHHVn64-MdYXbMMI","appKey":"MDCwgwKuixCWimVHJRU4TsPJ","serverURLs":null,"placeholder":"留下点什么吧~ （昵称请填写QQ号）","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":true,"comment_count":false,"recordIP":false,"enableQQ":true,"requiredFields":["nick"]}, {
       el: '#valine-comments',
       path: "/2020/11/09/my-first-blog/",
       serverURLs: "https://s2lwsfmp.api.lncldglobal.com"
