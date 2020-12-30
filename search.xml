@@ -1,13 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/11/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl"><a class="exturl__link"   href="https://hexo.io/" >Hexo</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>! This is your very first post. Check <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/" >documentation</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> or you can ask me on <span class="exturl"><a class="exturl__link"   href="https://github.com/hexojs/hexo/issues" >GitHub</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>.</p>
+
+        <h2 id="Quick-Start"   >
+          <a href="#Quick-Start" class="heading-link"><i class="fas fa-link"></i></a>Quick Start</h2>
+      
+        <h3 id="Create-a-new-post"   >
+          <a href="#Create-a-new-post" class="heading-link"><i class="fas fa-link"></i></a>Create a new post</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></div></figure>
+<a id="more"></a>
+<p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/writing.html" >Writing</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h3 id="Run-server"   >
+          <a href="#Run-server" class="heading-link"><i class="fas fa-link"></i></a>Run server</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></div></figure>
+
+<p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/server.html" >Server</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h3 id="Generate-static-files"   >
+          <a href="#Generate-static-files" class="heading-link"><i class="fas fa-link"></i></a>Generate static files</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></div></figure>
+
+<p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/generating.html" >Generating</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h3 id="Deploy-to-remote-sites"   >
+          <a href="#Deploy-to-remote-sites" class="heading-link"><i class="fas fa-link"></i></a>Deploy to remote sites</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></div></figure>
+
+<p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+]]></content>
+  </entry>
+  <entry>
     <title>my first blog</title>
     <url>/2020/11/09/my-first-blog/</url>
-    <content><![CDATA[<h2 id="my-first-blog"><a href="#my-first-blog" class="headerlink" title="my first blog"></a>my first blog</h2><p>keep moving</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><div class="note info"><p>chapter 01 </p>
-</div></h2><p>你好</p>
-<h2 id="chapter-02"><a href="#chapter-02" class="headerlink" title="chapter 02"></a>chapter 02</h2><div class="note success"><p>end </p>
-</div>
+    <content><![CDATA[
+        <h2 id="my-first-blog"   >
+          <a href="#my-first-blog" class="heading-link"><i class="fas fa-link"></i></a>my first blog</h2>
+      <p>keep moving</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a>
+    <div class="note-plugin info">
+      <span class="note-plugin__icon note-plugin__icon--info">
+              <i class="fas fa-info-circle"></i>
+            </span>
+      <p>chapter 01 </p>
+    </div>
+  </h2><p>你好</p>
+<a id="more"></a>
+
+        <h2 id="chapter-02"   >
+          <a href="#chapter-02" class="heading-link"><i class="fas fa-link"></i></a>chapter 02</h2>
+      
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>end </p>
+    </div>
+  
 ]]></content>
       <tags>
         <tag>Linux</tag>
